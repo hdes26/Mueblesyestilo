@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+html,body{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+}
+
+body{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F4F2EC;
+}
+
+#title{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  background-color: #F4F2EC;
+  text-align: center;
+  font-size: 22px;
+  font-family: 'Courgette', cursive;
+}
+.menu{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: black;
+}
+.menu a {
+  padding: 13px;
+  color: white;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+}
+.menu a:hover{
+  background-color: rgba(128, 128, 128, 0.356);
+}
+
+
+.cl-1{
+    display: flex;
+    width: 100%;
+    background-color: #F4F2EC;
+}
+.cl-1 #img{
+    width: 50%;
+}
+.cl-1 #img img{
+    height: 750px;
+    width: 100%;
+}
+
+.cl-1 #about-us{
+    width: 50%;
+}
+.cl-1 #about-us h2{
+    font-family: 'Courgette', cursive;
+    margin-top: 100px;
+    margin-left: 250px;
+    font-size: 40px;
+    margin-right: 300px;
+}
+.cl-1 #about-us p{
+    margin-top: 40px;
+    margin-left: 250px;
+    margin-right: 260px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:18px;
+    line-height: 30px;
+
+}
+
+.end{
+    margin-top: 200px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.end p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+}
+.end a{
+  margin-bottom: 25px;
+}
