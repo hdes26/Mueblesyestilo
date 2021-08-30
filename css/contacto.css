@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+html,body{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+}
+
+body{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("/assets/img/background-contacto.jpg");
+}
+
+#title{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  background-color: #F4F2EC;
+  text-align: center;
+  font-size: 22px;
+  font-family: 'Courgette', cursive;
+}
+.menu{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: black;
+}
+.menu a {
+  padding: 13px;
+  color: white;
+  cursor: pointer;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+}
+.menu a:hover{
+  background-color: rgba(128, 128, 128, 0.356);
+}
+.info{
+  margin-top: 40px;
+  text-align: center;
+}
+.info h2{
+  font-family: 'Courgette', cursive;
+}
+.info p {
+  margin-top:10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+.all{
+  margin-top: 50px;
+  display: flex;
+  height: 500px;
+  width: 50%;
+}
+#image img{
+  height: 500px;
+}
+.contacto{
+  background-color: rgba(255, 255, 255, 0.815);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.contacto h3{
+  font-size: 22px;
+  font-family:'Courgette', cursive;
+}
+#formulario{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+#formulario input{
+  margin-top: 20px;
+  padding: 6px;
+  width: 320px;
+}
+#formulario #mensaje{
+  margin-top: 20px;
+  height: 200px;
+  width: 320px;
+  padding: 7px;
+  resize: none;
+  
+}
+#formulario #buton {
+  width: 50%;
+  border: none;
+  background-color: #79253D;
+  color: white;
+  font-size: 18px;
+
+}
+#formulario #buton:hover{
+  box-shadow: 2px 2px 2px 1px rgba(66, 47, 47, 0.5);
+  cursor: pointer;
+
+}
+
