@@ -1,11 +1,13 @@
 
 function validar() {
-    var elemento = document.getElementById("nombre").value
-  if (elemento == ""){
-    alert("Debes llenar el campo")
+    var nombre = document.getElementById("nombre").value;
+    var email = document.getElementById("email").value;
+    var mensaje = document.getElementById("mensaje").value;
+  if (nombre == "" || email =="" || mensaje==""){
+    alert("Debes llenar el campo");
     return false
   }else {
-    alert("Genial el valor es: "+elemento)
+    alert("Genial tu mensaje es : "+ mensaje);
     return false
   }
 }
