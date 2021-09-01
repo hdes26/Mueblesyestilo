@@ -59,14 +59,22 @@ body{
 .all{
   margin-top: 50px;
   display: flex;
-  height: 500px;
+  width: 50%;
+}
+.all #image{
+  width: 50%;
+}
+.all #image img{
+  width: 100%;
+}
+.all .contacto{
   width: 50%;
 }
 #image img{
   height: 500px;
 }
 .contacto{
-  background-color: rgba(255, 255, 255, 0.815);
+  background-color: rgba(255, 255, 255, 0.507);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,16 +91,17 @@ body{
   padding: 10px;
   justify-content: center;
   align-items: center;
+  width: 80%;
 }
 #formulario input{
   margin-top: 20px;
   padding: 6px;
-  width: 320px;
+  width: 100%;
 }
 #formulario #mensaje{
   margin-top: 20px;
   height: 200px;
-  width: 320px;
+  width: 100%;
   padding: 7px;
   resize: none;
   
@@ -109,5 +118,57 @@ body{
   box-shadow: 2px 2px 2px 1px rgba(66, 47, 47, 0.5);
   cursor: pointer;
 
+}
+footer{
+  margin-top: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  align-items: center;
+  background-color: #E9E5E2;
+  height: 90px;
+    
+}
+footer p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 17px;
+  margin-top: 20px;
+}
+footer img{
+  margin-top: 20px;
+  }
+@media (max-width:1026px){
+  .all{
+    width: 80%;
+  }
+  footer p{
+
+    font-size: 14px;
+
+  }
+}
+@media (max-width:498px){
+  .menu a{
+    font-size: 9px;
+  }
+  .all{
+    flex-direction: column-reverse;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .all #image{
+    display: none;
+  }
+  .all .contacto{
+    width: 80%;
+  }
+  footer p{
+
+    font-size: 10px;
+
+  }
 }
 

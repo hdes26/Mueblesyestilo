@@ -40,21 +40,29 @@
             <img src="/assets/img/form-image.png" alt="">
         </div>
 
+    
         <div class="contacto">
             <h3>Envianos un mensaje</h3>
-            <form action="" id="formulario">
-                <input type="text" name="" id="nombre" placeholder="Nombre">
-                <input type="email" name="" id="email" placeholder="Email">
-                <textarea name="" id="mensaje" cols="30" rows="10" placeholder="Tu mensaje"></textarea>
-                <input type="submit" value="Enviar" id="buton">
+            <form name="form" action="" method="get" id="formulario">
+                <input type="text"  id="nombre" placeholder="Nombre" name="nombre" required>
+                <input type="email"  id="email" placeholder="Email"  name="email" required>
+                <textarea name="" id="mensaje" cols="30" rows="10" placeholder="Tu mensaje" required></textarea>
+                <input type="submit" value="Enviar" id="buton" onclick="validar()">
             </form>
         </div>
 
     </div>
 
+    <footer>
 
+        <img src="/assets/img/logo.jpeg" alt="" height="100px">    
+        
+        <p>©2021 por Muebles Diseño y Estilo. Creada por Hernan Escorcia</p>
+       
 
+    </footer>
 
+    <script type="text/javascript" src="/js/index.js"></script>
 </body>
 
 </html>
