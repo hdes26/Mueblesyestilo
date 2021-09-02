@@ -431,6 +431,7 @@ margin-top: 40px;
 }
 @media (max-width:423px){
   .cl-2{
+    margin-top:150px;
     height: 320px;
     flex-direction: column-reverse;
     align-items: center;
@@ -470,10 +471,12 @@ margin-top: 40px;
     height: 250px;
   }
   .cl-1 h2{
-    font-size: 30px;
+    margin-top: 10px;
+    font-size: 20px;
   }
   .cl-1 h3{
-    font-size:15px;
+    font-size:11px;
+    margin-bottom: 10px;
   }
   .cl-5 img{
     height: 300px;
@@ -484,12 +487,14 @@ margin-top: 40px;
   .carousel-inner{
     height: 200px;
   }
+ 
 }
 @media (max-width:365px){
   .cl-2{
     height: 320px;
     flex-direction: column-reverse;
     align-items: center;
+    margin-top: 130px;
   }
   .cl-2 #about-us{
     width: 100%;
@@ -526,10 +531,11 @@ margin-top: 40px;
     height: 250px;
   }
   .cl-1 h2{
-    font-size: 30px;
+    font-size: 25px;
   }
   .cl-1 h3{
-    font-size:15px;
+    margin-top: 50px;
+    font-size:12px;
   }
   .cl-5 img{
     height: 300px;
