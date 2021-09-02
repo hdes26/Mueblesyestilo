@@ -18,6 +18,7 @@ html,body{
   height: 700px;
 }
 
+
 #title{
   padding-top: 30px;
   padding-bottom: 30px;
@@ -244,6 +245,9 @@ margin-top: 40px;
   footer{
     margin-top: 50px;
   }
+  .carousel-inner{
+    height: 600px;
+  }
 }
 @media (max-width:623px) {
   .backgroud-cl-1{
@@ -301,6 +305,9 @@ margin-top: 40px;
   footer{
     margin-top: 50px;
   }
+  .carousel-inner{
+    height: 500px;
+  }
 }
 @media (max-width:581px) {
   .backgroud-cl-1{
@@ -357,6 +364,7 @@ margin-top: 40px;
   footer{
     margin-top: 50px;
   }
+  
 }
 @media (max-width:515px){
   .cl-2{
@@ -414,6 +422,9 @@ margin-top: 40px;
   footer{
     margin-top: 50px;
   }
+  .carousel-inner{
+    height:450px;
+  }
 }
 @media (max-width:423px){
   .cl-2{
@@ -467,6 +478,9 @@ margin-top: 40px;
   footer{
     margin-top: 50px;
   }
+  .carousel-inner{
+    height: 400px;
+  }
 }
 @media (max-width:365px){
   .cl-2{
@@ -495,7 +509,7 @@ margin-top: 40px;
     margin-left: 40px;
   }
   .menu a{
-    font-size: 9px;
+    font-size: 7px;
   }
   .cl-3 .designs{
     height: 350px;
@@ -519,6 +533,9 @@ margin-top: 40px;
   }
   footer{
     margin-top: 50px;
+  }
+  .carousel-inner{
+    height: 320px;
   }
 }
 
