@@ -14,7 +14,9 @@ html,body{
   justify-content: center;
 }
 
-
+.carousel-inner{
+  height: 700px;
+}
 
 #title{
   padding-top: 30px;
@@ -191,7 +193,7 @@ footer{
   padding-bottom: 40px;
   align-items: center;
   background-color: #E9E5E2;
-  height: 90px;
+  height: 100px;
     
 }
 footer p{
@@ -200,7 +202,7 @@ footer p{
   margin-top: 20px;
 }
 footer img{
-margin-top: 20px;
+margin-top: 40px;
 }
 
 @media (max-width:939px) {
