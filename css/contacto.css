@@ -121,34 +121,12 @@ body{
   cursor: pointer;
 
 }
-footer{
-  margin-top: 200px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 40px;
-  align-items: center;
-  background-color: #E9E5E2;
-  height: 90px;
-    
-}
-footer p{
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 17px;
-  margin-top: 20px;
-}
-footer img{
-  margin-top: 20px;
-  }
+
 @media (max-width:1026px){
   .all{
     width: 80%;
   }
-  footer p{
 
-    font-size: 14px;
-
-  }
 }
 @media (max-width:498px){
   .menu a{
@@ -167,10 +145,7 @@ footer img{
   .all .contacto{
     width: 80%;
   }
-  footer p{
 
-    font-size: 10px;
 
-  }
 }
 

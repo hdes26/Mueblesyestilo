@@ -15,7 +15,7 @@ html,body{
 }
 
 .carousel-inner{
-  height: 700px;
+  height: 600px;
 }
 
 
@@ -246,7 +246,7 @@ margin-top: 40px;
     margin-top: 50px;
   }
   .carousel-inner{
-    height: 600px;
+    height: 400px;
   }
 }
 @media (max-width:623px) {
@@ -306,7 +306,7 @@ margin-top: 40px;
     margin-top: 50px;
   }
   .carousel-inner{
-    height: 500px;
+    height: 350px;
   }
 }
 @media (max-width:581px) {
@@ -363,6 +363,9 @@ margin-top: 40px;
   }
   footer{
     margin-top: 50px;
+  }
+  .carousel-inner{
+    height: 300px;
   }
   
 }
@@ -423,7 +426,7 @@ margin-top: 40px;
     margin-top: 50px;
   }
   .carousel-inner{
-    height:450px;
+    height:250px;
   }
 }
 @media (max-width:423px){
@@ -479,7 +482,7 @@ margin-top: 40px;
     margin-top: 50px;
   }
   .carousel-inner{
-    height: 400px;
+    height: 200px;
   }
 }
 @media (max-width:365px){
@@ -535,7 +538,7 @@ margin-top: 40px;
     margin-top: 50px;
   }
   .carousel-inner{
-    height: 320px;
+    height: 200px;
   }
 }
 
