@@ -1,4 +1,4 @@
-function validar() {
+async function validar () {
   const urlcheck = 'https://mdenode.herokuapp.com/email/send/';
   var nombre = document.getElementById("nombre").value;
   var email = document.getElementById("email").value;
@@ -6,7 +6,7 @@ function validar() {
   if (nombre == "" || email == "" || mensaje == "") {
     return false
   } else {
-    fetch(urlcheck, {
+    await fetch(urlcheck, {
       method: 'POST',
       body: JSON.stringify({
         "nombre": `${nombre}`,
